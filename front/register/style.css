@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 90vh;
+    background-color: black;
+}
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+form
+{
+    border:solid 3px #ccc;
+    border-radius: 5px;
+    width: 25%;
+}
+#show_pass
+{
+    transition:0.3s;
+    cursor: pointer;
+    
+    -webkit-user-select: none; /* Chrome, Safari, Edge */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer */
+    user-select: none;         /* Standard */
+
+      
+}
+#show_pass:hover
+{
+    text-decoration: underline;
+}
+.alert{
+    top:0;
+    left:0;
+    right:0;
+    margin:10px;
+}
+.terms{
+    color:rgba(0, 0, 0, 0.473);
+}
+.form-control:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}

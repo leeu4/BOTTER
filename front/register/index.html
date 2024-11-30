@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body id="boody" class="">
+    <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="../home/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Web scraping</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Websites</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+
+          <form class="p-5 " id="form">
+              <h1 class="text-primary text-center">Register</h1>
+              <div class="form-floating mb-3">
+                  <input required type="email" class="form-control fs-5 "
+                      style="border:none;border-bottom:3px solid; border-radius:0; border-color:#ccc;" id="floatingEmail"
+                      placeholder="">
+                  <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                  <input required type="text" class="form-control fs-5 "
+                      style="border:none;border-bottom:3px solid; border-radius:0; border-color:#ccc;" id="floatingUsername"
+                      placeholder="">
+                  <label for="floatingInput">Username</label>
+              </div>
+              <div class="form-floating">
+                  <input required type="password" class="form-control fs-5 "
+                      style="border:none;border-bottom:3px solid; border-radius:0; border-color:#ccc; " id="floatingPassword"
+                      placeholder="">
+                  <label for="floatingPassword">Password</label>
+                  <p class="text-primary" id="show_pass">Show Password</p>
+                  <p class="text-black">Do you have an account?<a class="link" href="../login/index.html">Login</a></p>
+                  <p class="terms text-center">By Registering You agree with our terms & conditions</p>
+              </div>
+              <button class="btn btn-primary form-control" id="button">Submit</button>
+              <div class="d-flex align-items-center">
+                  <hr class="flex-grow-1" />
+                  <span class="px-2 text-muted">Or</span>
+                  <hr class="flex-grow-1" />
+              </div>
+              <button class="btn btn-warning form-control"> Register using <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                      height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                      <path
+                          d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z" />
+                  </svg></button>
+      
+      
+          </form>
+      </main>
+    <script src="https://kit.fontawesome.com/3b3dc9be1b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
